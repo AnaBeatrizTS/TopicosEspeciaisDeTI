@@ -1,0 +1,57 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Crushed&family=Lobster&family=Teko:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: linear-gradient(90.15deg, #6486a5 19.42%, #7a96c0 80.61%);
+
+}
+
+header {
+    display: flex;
+    flex-direction:column;
+    align-items:center ;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+h1 {
+    font-family: 'Crushed', sans-serif;
+    color: #cc9c19;
+    font-weight: 400;
+    font-size: 100px;
+}
+
+h2{
+    font-family: 'Crushed', sans-serif;
+    color: #cc9c19;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+h4{
+    font-family: 'Crushed', sans-serif;
+    color: #5e480c;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+table{
+    display: flex;
+    flex-direction:column;
+    align-items:center ;
+    justify-content: space-around;
+    padding: 50px;
+}
