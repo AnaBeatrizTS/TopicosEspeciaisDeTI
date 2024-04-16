@@ -2,20 +2,28 @@ var cpf = "04407868279";
 var pais = "Brasil";
 var idade = 18;
 
-var matrizM = new Array();
+var matrizM = new Array(4);
 //QUESTÃO NUMERO 1
 
 for (i = 0; i < 4; i++){
-    matrizM[i] = [];
+        matrizM[i] = new Array()
     for ( j = 0; j < 4; j++) {        
-        matrizM[i][j] = i * 4 + j;
+        matrizM[i][j] = (i * 4) + j;
     }
 }
 
 //QUJESTÃO NUMERO 2
 
-if(matrizM[i][j] === 10){
-    document.writeln("O valor 10 foi encontrado com sucesso!");
+for (i = 0; i < 4; i++){
+    matrizM[i] = new Array()
+for ( j = 0; j < 4; j++) {        
+    matrizM[i][j] = (i * 4) + j;
+
+
+    if(matrizM[i][j] === 10){
+        document.writeln("O valor 10 foi encontrado com sucesso!");
+    }
+}
 }
 
 
